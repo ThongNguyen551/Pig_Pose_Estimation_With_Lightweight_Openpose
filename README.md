@@ -1,7 +1,7 @@
 # Pig_Pose_Estimation_With_Lightweight_Openpose
 Coursework project: IMT4392 Deep learning for visual computing - NTNU, Norway
 
-- Project owners: Milan Kresovic, Thong D. Nguyen.
+- Project owners: [Milan Kresovic](https://github.com/kresovicmilan), [Thong Nguyen](https://github.com/ThongNguyen511).
 - This project is done the transfer-learning based on the implementation [Lightweight OpenPose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) made by [Daniil-Osokin](https://github.com/Daniil-Osokin)
 - This project is implemented to work with the pig dataset, which has 6 keypoints in term of the skeleton. 
 
