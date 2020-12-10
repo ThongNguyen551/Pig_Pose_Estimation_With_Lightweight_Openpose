@@ -5,10 +5,10 @@ Coursework project: IMT4392 Deep learning for visual computing - NTNU, Norway
 - This project is done the transfer-learning based on the implementation [Lightweight OpenPose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) made by [Daniil-Osokin](https://github.com/Daniil-Osokin)
 - This project is implemented to work with the pig dataset, which has 6 keypoints in term of the skeleton. 
 
-## Table of Contents
+## Worflow
 
-* [Training with original Lightweight Openpose](#Training-with-original-Lightweight-Openpose)
-* [Training with pig dataset](#Training-with-pig-dataset)
+1. [Training with original Lightweight Openpose](#Training-with-original-Lightweight-Openpose)
+2. [Training with pig dataset](#Training-with-pig-dataset)
 
 ## Training with original Lightweight Openpose
 Follow this [Implementation](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) for all beginning setup, then start training with COCO dataset in order to get the trained weight after 3 stages. This trained weight is used for training with custom dataset later. 
