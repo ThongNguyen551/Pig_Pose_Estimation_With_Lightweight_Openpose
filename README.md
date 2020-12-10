@@ -138,9 +138,29 @@ If this helps your research, please cite the paper:
 
 ### Table of Contents
 
-* [Label data](#prepare-data)
-* [Prepare data](#prerequisites)
+* [Label data](#label-data)
+* [Prepare data for training](#prepare-data-for-training)
 * [How to set KPTs and PAFs for customised dataset](#How-to-set-KPTs-and-PAFs-for-customised-dataset)
 * [Training](#training)
 * [Validation](#validation)
 * [Video demo](#video-demo)
+
+Our dataset is not public. However, you can send a access request to `oyvind.nordbo@norsvin.no`
+
+#### Label data
+For labelling data, we used a fancy tool called [COCO Annotator](https://github.com/jsbroks/coco-annotator). Follow the mentioned link for more detailed instruction. 
+
+#### Prepare data for training
+We followed the [TRAIN ON CUSTOM DATASET](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch/blob/master/TRAIN-ON-CUSTOM-DATASET.md) made by [Daniil-Osokin](https://github.com/Daniil-Osokin)
+
+#### How to set KPTs and PAFs for customised dataset
+#### Training
+```
+python train.py --train-images-folder "/path/to/train/datset" --prepared-train-labels "path/to/prepared_train_annotation.pkl" --checkpoint-path "path/to/checkpoint/from/stage3/of/lightweight/openpose" --weights-only "--num-refinement-stages" 3
+```
+#### Validation
+```
+python val.py --images-folder "/path/to/validation/datset" --labels "path/to/json/file" --checkpoint-path "path/to/selected/checkpoint"
+```
+#### Video demo
+
