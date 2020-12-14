@@ -41,4 +41,4 @@ python train.py --train-images-folder "/path/to/train/datset" --prepared-train-l
 python val.py --images-folder "/path/to/validation/datset" --labels "path/to/json/file" --checkpoint-path "path/to/selected/checkpoint"
 ```
 #### Video demo
-[![Watch the video](https://studntnu-my.sharepoint.com/:v:/g/personal/thongn_ntnu_no/EY06zEUyqJVMknQYcciWXmsBbCpKUtNcd0Yqgp8iv6fxMg?e=x1xUjW)
+[![Watch the video]](https://studntnu-my.sharepoint.com/:v:/g/personal/thongn_ntnu_no/EY06zEUyqJVMknQYcciWXmsBbCpKUtNcd0Yqgp8iv6fxMg?e=x1xUjW)
