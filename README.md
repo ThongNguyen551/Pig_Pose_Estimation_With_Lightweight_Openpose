@@ -5,7 +5,7 @@ Coursework project: IMT4392 Deep learning for visual computing - NTNU, Norway
 - This project is done the transfer-learning based on the implementation [Lightweight OpenPose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) made by [Daniil-Osokin](https://github.com/Daniil-Osokin)
 - This project is implemented to work with the pig dataset, which has 6 keypoints in term of the skeleton. 
 
-## Worflow
+## Workflow
 
 1. [Training with original Lightweight Openpose](#Training-with-original-Lightweight-Openpose)
 2. [Training with pig dataset](#Training-with-pig-dataset)
