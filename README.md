@@ -40,3 +40,6 @@ python train.py --train-images-folder "/path/to/train/datset" --prepared-train-l
 ```
 python val.py --images-folder "/path/to/validation/datset" --labels "path/to/json/file" --checkpoint-path "path/to/selected/checkpoint"
 ```
+
+#### Video demo
+[Video](https://drive.google.com/file/d/1MRy1RkWry3oiSXWAVLkzsOlt2TKqAUwX/view?usp=sharing) 
